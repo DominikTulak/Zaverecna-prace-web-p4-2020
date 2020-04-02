@@ -16,3 +16,11 @@
 - Nejde se přihlásit
 - Neznámá funkčnost registrace, jméno a email se "zaberou" ale nejde se 
 skrze ně přihlásit
+
+## Návrh databáze
+```mermaid
+graph LR
+ID --> NAME[Jméno] 
+NAME--> PASS[Heslo]
+ID --> WINS[Výhry]
+```
