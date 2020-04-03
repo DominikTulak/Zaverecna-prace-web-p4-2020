@@ -26,6 +26,6 @@ ID --> WINS[Výhry]
 ```
 ![Návrh databáze](https://github.com/DominikTulak/Zaverecna-prace-web-p4-2020/raw/master/Navrh_databaze.png)
 
-ID: INT
-NAME: STRING
-WINS: INT
+ID: INT  
+NAME: STRING  
+WINS: INT  
