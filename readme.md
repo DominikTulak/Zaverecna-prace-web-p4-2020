@@ -28,4 +28,5 @@ ID --> WINS[Výhry]
 
 ID: INT  
 NAME: STRING  
+PASS: STRING  
 WINS: INT  
