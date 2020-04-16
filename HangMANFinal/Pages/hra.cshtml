@@ -1,0 +1,14 @@
+﻿@page
+@model HangMANFinal.Pages.hraModel
+@{
+    ViewData["Title"] = "hra";
+}
+
+<h1 style="text-align: center; background-color: cadetblue; margin-bottom: 50px">Herní okno</h1>
+<div>Aktuální stav slova:</div>
+<div>@(Model.slovo)</div>
+<div>Zadej písmenko: </div>
+<form method="post">
+    <input asp-for="pismenko" />
+    <input type="submit" value="Odeslat" />
+</form>
